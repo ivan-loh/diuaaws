@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Diu As A Web Service (diuaaws) </title>
+    <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet">
+</head>
+<body>
+
+<div class="hero-unit">
+    <h1>DIUAAWS</h1>
+
+    <h2>Diu As A Web Service</h2>
+
+    <p>Please see README for use.</p>
+
+    <p><em>v0.0.1</em></p>
+</div>
+
+<div class="container">
+    <div class="content" style="margin-left:50px;">
+        <h2 id="introduction">Introduction</h2>
+
+        <p>DIUAAWS (Diu As A Web Service) provides a modern, RESTful, scalable solution to the common problem of telling
+            people to fuck off, adapted from FOASS for the Asian Audience</p>
+
+        <!--<h2 id="contentnegotiation">Content Negotiation</h2>-->
+
+        <!--<p>DIUAAWS will respond to the following 'Accept:' values with appropriate content</p>-->
+
+        <!--<ul>-->
+        <!--<li>text/plain - Content will be returned as a plain string.</li>-->
+        <!--<li>application/json - Content will be returned as a JSON object { message: 'message', subtitle: 'subtitle' }</li>-->
+        <!--<li>text/html - Content will be returned as an HTML page with a twitter bootstrap hero unit, containing the message and the subtitle.</li>-->
+        <!--</ul>-->
+
+        <h2 id="api">API</h2>
+
+        <h3 id="diunamefrom">/diu/:name/:from</h3>
+
+        <p>Will return content of the form 'Diu Lei, :name. - :from',
+            e.g. http://diuaaws.appspot.com/diu/Zien/Ivan will
+            return 'Diu Lei, Zien - Ivan'</p>
+
+        <h2>Misc</h2>
+
+        <p>Adapted from <a href="http://foaas.herokuapp.com/">FOASS</a></p>
+    </div>
+</div>
+
+
+<script src="http://code.jquery.com/jquery.js"></script>
+<script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
+</body>
+</html>
